@@ -1,0 +1,37 @@
+{
+  "name": "mindmap-bot",
+  "version": "1.0.0",
+  "description": "Simple and Fast mindmap bot made with discord.js and canvas.",
+  "main": "src/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ts-node lib/main.ts --development",
+    "build": "tsc",
+    "start": "node src/main.js --build"
+  },
+  "author": "MegalithOffical",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.8.5"
+  },
+  "dependencies": {
+    "@sapphire/bitfield": "^1.2.0",
+    "@sapphire/shapeshift": "^3.9.3",
+    "canvas": "^2.11.2",
+    "clog-utils": "^1.1.1",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "glob": "^10.3.10",
+    "wio.db": "^4.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegalithOfficial/Mindmap-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MegalithOfficial/Mindmap-bot/issues"
+  },
+  "homepage": "https://github.com/MegalithOfficial/Mindmap-bot#readme"
+}
