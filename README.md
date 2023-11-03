@@ -37,6 +37,18 @@ Before you can build or contribute to the bot, you'll need the following:
 - TypeScript: You can install TypeScript globally using `npm install -g typescript`.
 - [ts-node](https://github.com/TypeStrong/ts-node): Make sure you have ts-node installed globally or locally as a development dependency.
 
+### Configuration
+
+1. Duplicate the `.env.example` file in the root directory of your project and rename the duplicate to `.env`.
+
+2. Configure your bot token and other settings in the `.env` file. Example:
+
+   ```env
+   TOKEN=your_bot_token
+   ```
+
+By following these steps, you'll have your project set up and ready to configure your Discord bot.
+
 ### Running Tests
 
 To run tests for the bot without compiling, you can use the following command:
