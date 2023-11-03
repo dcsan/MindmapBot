@@ -12,6 +12,6 @@ export default class extends Event {
   };
 
   execute() {
-    this.client.user?.setPresence({ activities: [{ name: `Running on V14 Discord bot Template! Github: MegalithOfficial/Typescript-discord-bot-Template` }], status: PresenceUpdateStatus.DoNotDisturb })
+    this.client.user?.setPresence({ activities: [{ name: `Mindmap Bot <3 MegalithOfficial` }], status: PresenceUpdateStatus.DoNotDisturb })
   };
 };
